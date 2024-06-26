@@ -1,5 +1,7 @@
 package java0626;
 
+import java.util.Scanner;
+
 public class iput2 {
 
 	public static void main(String[] args) {
@@ -14,17 +16,23 @@ public class iput2 {
   이름,부서,실수령액을 출력하세요 
   두명의 직원에 대해 출력하세요					*/
 		
+	Scanner sc=new Scanner(System.in);
 		
-	char name="직원이름";
-	System.out.printf("직원이름:");
-	char division="부서명";
+		String name, dept;
+	int money;
+	
+	
+	System.out.printf("이름:");
+	 name=sc.nextLine();
 	System.out.printf("부서명:");
-	int money="월급여액";
+	 dept=sc.nextLine();
 	System.out.println("월급여액:");
+	 money=sc.nextInt();
+	
 	float tax=0.08f;
 	
-	int 실수령액=money-tax;
-	System.out.println("이름,부서:"+실수령액);
+	int 실수령액=(int)(money-(money*tax));
+	System.out.println("이름:"+name+"부서:"+dept+"수령액:"+실수령액);
 		
 		
 
