@@ -2,21 +2,23 @@ package java0625;
 
 public class java0625 {
 
+
 	public static void main(String[] args) {
-	//	자바 기본 구조- 프로젝트-패키지-클래스
-		System.out.println("자바테스트"); //출력
-	//	코드실행 - 왼쪽ctrl + fll
-	//	자바 변수 생성
-	// ->데이터 타입 변수 이름= 데이터;
-	//	데이터의 종류에는 정수,실수,문자
-	//	정수 - byte , short, int, long, char
-	//	문자- char
-	//	실수- float, double,
+		// 자바 기본 구조 - 프로젝트 - 패키지 - 클래스
 		
-	byte num = 10; //1byte
-	short num1 = 200; //2byte
-	int num2 = 2323; //4byte
-	long num3 = 234; //8byte
+		System.out.println("자바테스트"); // 출력
+		// 코드실행 - 왼쪽ctrl + f11
+		// 자바 변수 생성
+		// -> 데이터타입 변수이름 = 데이터 ;
+		// 데이터 의 종류에는  정수, 실수, 문자
+		// 정수 - byte , short, int, long ,char
+		// 문자 - char
+		// 실수 - float , double,
+		
+		byte num = 127;  // 1byte
+		short num1 = 200; // 2byte
+		int num2 = 2323;  // 4byte
+		long num3 = 234L; // 8byte
 	
 	char ch= 'a'; //''작은따옴표가 문자, ""큰따옴표가 문자열
 	

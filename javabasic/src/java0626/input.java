@@ -105,7 +105,7 @@ public class input {
 	System.out.println("건축학개론점수:");
 	건축학개론=scan.nextInt();
 	int total=c언어+자바+건축학개론;
-	int average=total/3
+	int average=total/3;
 	System.out.printf("총점:%d점 ,평균:%d점 \n",total,average);
 	
 	
