@@ -1,8 +1,8 @@
-package java0702_2;
+package java0702;
 
 import java.util.Arrays;
 
-public class ClassObject {
+public class classobject {
 
 	public static void main(String[] args) {
 //		Arrays.toString(null);
