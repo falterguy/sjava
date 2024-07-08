@@ -15,21 +15,36 @@ public class study {
 	
 	System.out.println(arr);	//테스트용 확인용 실제 출력X
 	
-	for(int i=0; i<arr.size(); i++) {
-		System.out.println(arr.get(i));
-	}
-	
-	for(String name:arr) {
-		System.out.println(name);
-	}
+//	for(int i=0; i<arr.size(); i++) {
+//		System.out.println(arr.get(i));
+//	}
+//	
+//	for(String name:arr) {
+//		System.out.println(name);
+//	}
 	
 	
 	//ArrayList를 사용하기-어려우면 정적배열로 String[]방식
 	//이름 10개 저장(아무거나 입력)
 	//이름 중에서 김씨만 출력 
 	
+	ArrayList<String>name=new ArrayList<String>();
+	name.add("강감찬");
+	name.add("김민수");
+	name.add("홍길동");
+	name.add("고길동");
+	name.add("유관순");
+	name.add("김유신");
+	name.add("양만춘");
+	name.add("김좌진");
+	name.add("김두환");
+	name.add("신승겸");
 	
-		
+	for(int i=0; i<name.length; i++) {
+		if(name[i]"김"==0)
 	}
+	System.out.print(name.get(i));
+		
+	
 
 }
