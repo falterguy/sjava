@@ -42,7 +42,6 @@ public class Dao {
 	String sql=
 	"insert into test_member(name,kor,eng,mat,total,std_avg) values(?,?,?,?,?,?)";
 	try {
-		
 	
 		pt=conn.prepareStatement(sql);
 		pt.setString(1,m.getName());
