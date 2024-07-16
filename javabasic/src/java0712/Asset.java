@@ -6,7 +6,8 @@ public class Asset {
 	private String accountNum;
 	private String holder;
 	
-	public Asset(String bank, int balance, String accountNum, String holder) {
+	public Asset(String bank, int balance,
+			String accountNum, String holder) {
 		this.bank=bank;
 		this.balance=balance;
 		this.accountNum=accountNum;
@@ -19,20 +20,21 @@ public class Asset {
 	}
 	
 	@Override
-	public boolean equals(object o) {
+	public boolean equals(Object o) {
 		Asset temp = (Asset)o;
-		boolean isBank=this.bank.equals(temp.bank);
+		boolean isBank = this.bank.equals(temp.bank);
 		if(isBank)
-			isBank=this.holder.equals(temp.holder);
+			isBank = this.holder.equals(temp.holder);
 		
 		return isBank;
 	}
+	
 	
 	public String getBank() {
 		return bank;
 	}
 	public void setBank(String bank) {
-		bank = bank;
+		this.bank = bank;
 	}
 	public int getBalance() {
 		return balance;
